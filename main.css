@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+body {
+    background-image: url('img/Zdjęcie\ autorstwa\ cottonbro\ z\ Pexels.jpg'); 
+}
+h1 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+h3 {
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.panel {
+    margin: 20px;
+}
+
+.panel-game,
+.panel-stats {
+    display: inline-block;
+    width: 48%;
+    overflow: hidden;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.panel-game p, .panel-stats p {
+    font-size: 20px;
+}
+
+.panel h3 {
+    text-align: center;
+}
+
+.panel-game h2 {
+    font-size: 25px;
+}
+
+.playerSelect {
+    margin: 0 auto;
+    max-width: 1000px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.playerSelect img {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.playerSelect h3 {
+    font-size: 21px;
+    margin: 0;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 20px;
+    border: 2px solid black;
+    text-transform: uppercase;
+    background-color: rgb(172, 48, 10);
+    font-weight: bold;
+    transition: .3s;
+    font-size: 30px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(20, 20, 20);
+    color: white
+}
+
+span {
+    font-weight: bold;
+}
+
+
+/* Media: */
+@media (max-width: 410px) {
+    .playerSelect img {
+        margin: 4px;
+    }
+    .panel-game, .panel-stats {
+        display: block;
+        width: 100%;
+    }
+}
