@@ -1,1 +1,1 @@
-# Game papier-kamień-nożyczki
+# Game Papier-kamien-nozyczki
