@@ -1,7 +1,7 @@
 # Game Papier-kamien-nozyczki
 
-Game made in JavaScrit.
-Structure in HTML folds myself with 3 elements (with 3 main classes) and button.
+Game created in JavaScrit.
+Structure in HTML is consited of 3 elements (with 3 main classes) and button.
 
 ### Technologies
 Project is created with:
